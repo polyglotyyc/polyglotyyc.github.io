@@ -1,0 +1,273 @@
+/* /////////////////////////////////////////////////////
+
+See WINTR Stylus Boilerplate Repo
+
+https://github.com/WINTR/stylus-boilerplate
+
+///////////////////////////////////////////////////// */
+html {
+  font-size: 6px;
+}
+body {
+  margin: 0px;
+  color: #606060;
+  font-size: 18px;
+  font-family: "sofia-pro", sans-serif;
+  font-weight: 200;
+  background-color: #f4f4f4;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin-top: 0px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+}
+h4 {
+  font-size: 1em;
+}
+h5 {
+  font-weight: normal;
+  font-size: 1em;
+}
+.center {
+  text-align: center;
+}
+a {
+  color: #5c80bc;
+  font-weight: 400;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a.button {
+  display: inline-block;
+  padding: 1rem 4rem;
+  color: #3fb34e;
+  text-decoration: none;
+  font-weight: 500;
+  text-transform: uppercase;
+  border: solid 2px #3fb34e;
+  border-radius: 5px;
+}
+a.button:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+header {
+  position: relative;
+  height: 600px;
+  text-align: center;
+  border-bottom: solid 1px #fff;
+  background-color: #fbdd70;
+  overflow: hidden;
+}
+header h1,
+header h2 {
+  position: relative;
+  margin: 0px;
+  color: #fff;
+  text-shadow: 0px 0px 2px #606060;
+}
+header h1 {
+  padding-top: 170px;
+  margin-bottom: 3rem;
+  font-size: 7em;
+  font-weight: 700;
+}
+header h2 {
+  margin-bottom: 3rem;
+  font-size: 1.5em;
+  font-weight: 300;
+}
+header .button {
+  position: relative;
+  color: #fff;
+  border-color: #fff;
+  background-color: rgba(0,0,0,0.3);
+}
+header .button:hover {
+  background-color: rgba(0,0,0,0.2);
+}
+header .pg-wheat {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 120px;
+  overflow: hidden;
+  opacity: 0.95;
+}
+header .pg-wheat .stock {
+  display: inline-block;
+  position: relative;
+  top: 60px;
+  width: 35px;
+  height: 168px;
+  background-image: url("/images/wheat.png");
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+header .mountains {
+  position: absolute;
+  top: 0px;
+  bottom: 100px;
+  left: 0px;
+  right: 0px;
+  background-image: url("/images/mountains.png");
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.7;
+}
+header .cover {
+  position: absolute;
+  top: -1px;
+  bottom: -2px;
+  left: 0px;
+  right: 0px;
+  background-image: url("/images/cover.jpg");
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: justify;
+  background-color: #f4f4f4;
+}
+section.yellow {
+  background-color: #fbdd70;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,0.1)), color-stop(rgba(255,255,255,0.05)), color-stop(rgba(255,255,255,0.1)), to(rgba(0,0,0,0.05)));
+  background-image: -webkit-linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0.1), rgba(0,0,0,0.05));
+  background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0.1), rgba(0,0,0,0.05));
+}
+section .content {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.location-section h4,
+.location-section h5 {
+  margin-bottom: 1rem;
+}
+.map {
+  display: block;
+  position: relative;
+  height: 400px;
+  background-image: url("/images/map.jpg");
+  -webkit-background-size: 3008px;
+  background-size: 3008px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.sponsors {
+  text-align: center;
+  font-size: 0;
+  background-color: #fff;
+}
+.sponsors a {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+.sponsors .gigabyte,
+.sponsors .megabyte,
+.sponsors .kilobyte,
+.sponsors .byte {
+  position: relative;
+  border-top: solid 1rem transparent;
+}
+.sponsors .gigabyte:before,
+.sponsors .megabyte:before,
+.sponsors .kilobyte:before,
+.sponsors .byte:before {
+  content: "";
+  display: block;
+  top: -1rem;
+  left: 0px;
+  right: 0px;
+  height: 1rem;
+  border-radius: 0.5rem;
+  background-color: #f4f4f4;
+}
+.sponsors .gigabyte:first-child:before,
+.sponsors .megabyte:first-child:before,
+.sponsors .kilobyte:first-child:before,
+.sponsors .byte:first-child:before {
+  display: none;
+}
+.sponsors .gigabyte:empty,
+.sponsors .megabyte:empty,
+.sponsors .kilobyte:empty,
+.sponsors .byte:empty {
+  display: none;
+}
+.sponsors .gigabyte a {
+  width: -webkit-calc(30% - 4rem);
+  width: calc(30% - 4rem);
+  height: 150px;
+  margin: 2rem 4rem;
+}
+.sponsors .megabyte a {
+  width: 21%;
+  height: 128px;
+  margin: 2rem 4rem;
+}
+.sponsors .kilobyte a {
+  width: 16%;
+  height: 100px;
+  margin: 2rem 4rem;
+}
+.sponsors .byte a {
+  width: 13%;
+  height: 92px;
+  margin: 1rem;
+}
+footer {
+  padding-top: 4rem;
+  padding-bottom: 5rem;
+  text-align: center;
+  border-top: solid 1px #bbb;
+  background-color: #fbdd70;
+  background-image: url("/images/grain.png");
+  -webkit-background-size: 128px;
+  background-size: 128px;
+  background-repeat: repeat;
+  background-position: center center;
+  background-blend-mode: multiply;
+}
+footer a.twitter {
+  display: inline-block;
+  height: 32px;
+  width: 32px;
+  color: transparent;
+  background-image: url("/images/twitter.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: contain;
+  background-size: contain;
+}
