@@ -182,11 +182,46 @@ section .content {
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+.talks-section .topic-list
+{
+  display: block;
+  min-height: 240px;
+}
+.talks-section .topic-list div:first-child
+{
+  float: left;
+  width: 50%;
+  min-height: 200px;
+}
+.talks-section .topic-list div:last-child
+{
+  float: right;
+  width: 50%;
+  min-height: 200px;
+}
+
+.schedule-section table{
+  width: 100%;
+}
+
+.schedule-section table tr td:first-child{
+  width: 20%;
+  border-bottom: 1px dashed;
+  text-align: center;
+}
+.schedule-section table tr td:last-child{
+  width: 80%;
+  border-bottom: 1px dashed;
+}
+
 .sponsors {
   text-align: center;
   font-size: 0;
   background-color: #fff;
 }
+
+
 .sponsors a {
   display: inline-block;
   background-repeat: no-repeat;
