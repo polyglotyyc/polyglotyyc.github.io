@@ -47,7 +47,7 @@ angular.module('Polyglot').directive("pgTickets", function() {
   return {
     restrict: "EA",
     replace: true,
-    template: "<center>\n  <a class=\"button\" href=\"https://www.eventbrite.ca/e/polyglot-alberta-2015-tickets-15716920733\" target=\"_blank\">Get Tickets Now</a>\n</center>"
+    template: "<center>\n  Tickets Coming Soon\n</center>"
   };
 });
 
