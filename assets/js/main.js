@@ -47,7 +47,7 @@ angular.module('Polyglot').directive("pgTickets", function() {
   return {
     restrict: "EA",
     replace: true,
-    template: "<center>\n  Tickets Coming Soon\n</center>"
+    template: "<center>\n  <a class=\"button\">Tickets Coming Soon</a>\n</center>"
   };
 });
 
