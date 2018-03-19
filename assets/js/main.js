@@ -47,7 +47,7 @@ angular.module('Polyglot').directive("pgTickets", function() {
   return {
     restrict: "EA",
     replace: true,
-    template: "<center>\n  <a class=\"button\">Tickets Coming Soon</a>\n</center>"
+    template: "<center>\n  <a class=\"button\" href=\"https://www.showpass.com/polyglot-yyc/\">Get Tickets Now</a>\n</center>"
   };
 });
 
