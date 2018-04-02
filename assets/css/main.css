@@ -85,8 +85,6 @@ header h1,
 header h2 {
   position: relative;
   margin: 0px;
-  color: #fff;
-  text-shadow: 0px 0px 2px #606060;
 }
 header h1 {
   padding-top: 170px;
