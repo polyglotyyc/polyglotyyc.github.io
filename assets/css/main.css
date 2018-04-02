@@ -139,17 +139,6 @@ header .mountains {
   background-position: center center;
   opacity: 0.7;
 }
-header .cover {
-  position: absolute;
-  top: -1px;
-  bottom: -2px;
-  left: 0px;
-  right: 0px;
-  background-image: url("/images/cover.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
 }
 section {
   padding-top: 3rem;
