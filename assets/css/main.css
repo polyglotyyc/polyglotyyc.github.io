@@ -61,23 +61,25 @@ a:hover {
 a.button {
   display: inline-block;
   padding: 1rem 4rem;
-  color: #3fb34e;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 500;
   text-transform: uppercase;
-  border: solid 2px #3fb34e;
+  border: solid 2px #606060;
   border-radius: 5px;
+  background-color: #606060;
 }
 a.button:hover {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0,0,0,0.2);
+  color: #FFFFFF;
+  border-color: #606060;
 }
 header {
-  position: relative;
-  height: 600px;
   text-align: center;
   border-bottom: solid 1px #fff;
   background-color: #fbdd70;
-  overflow: hidden;
+  position:relative;
+  padding: 8rem;
 }
 header h1,
 header h2 {
@@ -97,15 +99,7 @@ header h2 {
   font-size: 1.5em;
   font-weight: 300;
 }
-header .button {
-  position: relative;
-  color: #fff;
-  border-color: #fff;
-  background-color: rgba(0,0,0,0.3);
-}
-header .button:hover {
-  background-color: rgba(0,0,0,0.2);
-}
+
 header .pg-wheat {
   position: absolute;
   bottom: 0px;
