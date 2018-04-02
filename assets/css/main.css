@@ -132,6 +132,11 @@ header .mountains {
   background-position: center center;
   opacity: 0.7;
 }
+
+center {
+  position:relative;
+  z-index:10;
+  margin:8rem;
 }
 section {
   padding: 10rem 8rem;
