@@ -15,6 +15,7 @@ body {
   font-family: "sofia-pro", sans-serif;
   font-weight: 200;
   background-color: #f4f4f4;
+  line-height:1.5;
 }
 h1,
 h2,
@@ -141,8 +142,7 @@ header .mountains {
 }
 }
 section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 10rem 8rem;
   text-align: justify;
   background-color: #f4f4f4;
 }
