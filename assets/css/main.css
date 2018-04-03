@@ -15,6 +15,7 @@ body {
   font-family: "sofia-pro", sans-serif;
   font-weight: 200;
   background-color: #f4f4f4;
+  line-height:1.5;
 }
 h1,
 h2,
@@ -60,30 +61,30 @@ a:hover {
 a.button {
   display: inline-block;
   padding: 1rem 4rem;
-  color: #3fb34e;
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: 500;
   text-transform: uppercase;
-  border: solid 2px #3fb34e;
+  border: solid 2px #606060;
   border-radius: 5px;
+  background-color: #606060;
 }
 a.button:hover {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(0,0,0,0.2);
+  color: #FFFFFF;
+  border-color: #606060;
 }
 header {
-  position: relative;
-  height: 600px;
   text-align: center;
   border-bottom: solid 1px #fff;
   background-color: #fbdd70;
-  overflow: hidden;
+  position:relative;
+  padding: 8rem;
 }
 header h1,
 header h2 {
   position: relative;
   margin: 0px;
-  color: #fff;
-  text-shadow: 0px 0px 2px #606060;
 }
 header h1 {
   padding-top: 170px;
@@ -96,15 +97,7 @@ header h2 {
   font-size: 1.5em;
   font-weight: 300;
 }
-header .button {
-  position: relative;
-  color: #fff;
-  border-color: #fff;
-  background-color: rgba(0,0,0,0.3);
-}
-header .button:hover {
-  background-color: rgba(0,0,0,0.2);
-}
+
 header .pg-wheat {
   position: absolute;
   bottom: 0px;
@@ -139,21 +132,14 @@ header .mountains {
   background-position: center center;
   opacity: 0.7;
 }
-header .cover {
-  position: absolute;
-  top: -1px;
-  bottom: -2px;
-  left: 0px;
-  right: 0px;
-  background-image: url("/images/cover.jpg");
-  -webkit-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
+
+center {
+  position:relative;
+  z-index:10;
+  margin:8rem;
 }
 section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 10rem 8rem;
   text-align: justify;
   background-color: #f4f4f4;
 }
@@ -164,7 +150,7 @@ section.yellow {
   background-image: linear-gradient(rgba(0,0,0,0.1), rgba(255,255,255,0.05), rgba(255,255,255,0.1), rgba(0,0,0,0.05));
 }
 section .content {
-  width: 960px;
+  max-width: 960px;
   margin-left: auto;
   margin-right: auto;
 }
