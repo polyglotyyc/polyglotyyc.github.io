@@ -47,8 +47,8 @@ angular.module('Polyglot').directive("pgTickets", function() {
   return {
     restrict: "EA",
     replace: true,
-//    template: "<center>\n  <a class=\"button\" onclick=\"showpass.tickets.eventPurchaseWidget('polyglot-yyc', {'theme-primary': '#dd3333', 'keep-shopping': false});return false;\" href=\"https://www.showpass.com/polyglot-yyc/\">Get Tickets Now</a>\n</center>"
-    template: "<center>\n  <a class=\"button\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeMs1roEtoA-9jS7fKzKdZByHCbXtTBbuBfx_74DcbISECAKg/viewform\">Tickets coming soon! Join the notifcation list</a>\n</center>"
+    template: "<center>\n  <a class=\"button\" href=\"https://www.eventbrite.com/e/polyglot-yyc-2019-tickets-59002633465\">Get Tickets Now</a>\n</center>"
+//     template: "<center>\n  <a class=\"button\" href=\"https://docs.google.com/forms/d/e/1FAIpQLSeMs1roEtoA-9jS7fKzKdZByHCbXtTBbuBfx_74DcbISECAKg/viewform\">Tickets coming soon! Join the notifcation list</a>\n</center>"
     
   };
 });
