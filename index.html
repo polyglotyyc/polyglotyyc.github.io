@@ -1,320 +1,319 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="Polyglot">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=1000">
-  <title>POLYGLOT YYC 2019</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1000" />
+    <title>POLYGLOT YYC 2024</title>
 
-  <script src="//use.typekit.net/xbk7uap.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
-  <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
-  <link rel="stylesheet" href="//api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css" />
-</head>
-<body>
-  <header>
-    <div class="mountains"></div>
-    <pg-wheat></pg-wheat>
-    <h1>Polyglot &nbsp;YYC</h1>
-    <h2>Date: June 2nd, 2019</h2>
-    <h2>Location: Kahanoff Centre & Conference Space - 105 12 Ave SE #200, Calgary, AB T2G 1A1</h2>
-    <h2>Breakfast & Lunch provided</h2>
-    <pg-tickets></pg-tickets>
-  </header>
+    <script src="//use.typekit.net/xbk7uap.js"></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+    <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="//api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="mountains"></div>
+      <pg-wheat></pg-wheat>
+      <h1>Polyglot &nbsp;YYC</h1>
+      <h2>Date: Spring 2024</h2>
+      <h2>Location: TBD</h2>
+      <pg-coming-soon></pg-coming-soon>
+    </header>
 
+    <pg-section>
+      <h1>Vision</h1>
+      <p>
+        Polyglot: knowing or using several languages. This event is inspired by
+        the
+        <a href="https://www.polyglotconf.com/" target="_blank"
+          >Polyglot Unconference</a
+        >
+        in Vancouver. We hope to gather 100 Calgary software developers who will
+        leave language, platform and possibly even editor wars behind and come
+        together for a spontaneously organized day of amazing talks, round-table
+        discussions, panel sessions, and coding.
+      </p>
 
-  <pg-section>
-    <h1>Vision</h1>
-    <p>Polyglot: knowing or using several languages. This event is inspired by the <a href="https://www.polyglotconf.com/" target="_blank">Polyglot Unconference</a> in Vancouver. We hope to gather 100 Calgary software developers who will leave language, platform and possibly even editor wars behind and come together for a spontaneously organized day of amazing talks, round-table discussions, panel sessions, and coding.</p>
+      <p>
+        If you've never been to an unconference (or open-space) event before,
+        you owe it to yourself to make it to Polyglot YYC 2024. It's an
+        experience like no other.
+      </p>
+      <pg-tickets></pg-tickets>
 
-    <p>If you've never been to an unconference (or open-space) event before, you owe it to yourself to make it to Polyglot YYC 2019. It's an experience like no other.</p>
-    <pg-tickets></pg-tickets>
+      <p>
+        Why $20 tickets? From our experience, we see a larger drop off rate for
+        free events. Any proceeds after costs (catering breakfast and lunch,
+        security, etc.) will be donated to the
+        <a
+          href="https://www.canadalearningcode.ca/chapters/calgary/"
+          target="_blank"
+          title="Canada Learning Code - Calgary Chapter"
+          >Calgary chapter of Canada Learning Code</a
+        >.
+      </p>
+    </pg-section>
 
-    <p>Why $20 tickets? From our experience, we see a larger drop off rate for free events. Any proceeds after costs (catering breakfast and lunch, security, etc.) will be donated to the <a href="https://www.canadalearningcode.ca/chapters/calgary/" target="_blank" title="Canada Learning Code - Calgary Chapter">Calgary chapter of Canada Learning Code</a>.</p>
-  </pg-section>
+    <pg-section>
+      <h1>Who are we?</h1>
+      <p>
+        Polyglot YYC isn't the product of some faceless corporation looking to
+        make a buck by getting you to a conference and then selling you a
+        time-share. The organizers are all community members from around
+        Calgary: just like you! We saw a lot of user groups for Ruby, Python,
+        functional languages, .net, etc. but very few places where developers
+        from different communities could get together. We hope that Polyglot YYC
+        will be that place: a place for technologists to get together and talk
+        about the craft.
+      </p>
 
-  <pg-section>
-    <h1>Who are we?</h1>
-    <p>Polyglot YYC isn't the product of some faceless corporation looking to make a buck by getting you to a conference and then selling you a time-share. The organizers are all community members from around Calgary: just like you! We saw a lot of user groups for Ruby, Python, functional languages, .net, etc. but very few places where developers from different communities could get together. We hope that Polyglot YYC will be that place: a place for technologists to get together and talk about the craft.</p>
+      <h2>Community Partners</h2>
+      <ul>
+        <li>
+          <a
+            href="https://communityinviter.com/apps/yycdesign/yyc-design-and-development"
+            target="_blank"
+            >YYC Design &amp; Dev Slack (main coordination location)</a
+          >
+        </li>
+        <li>
+          <a href="https://www.meetup.com/YYC-Rb/" target="_blank"
+            >YYC Ruby Meetup</a
+          >
+        </li>
+        <li>
+          <a href="https://www.meetup.com/py-yyc/" target="_blank"
+            >PyYYC Meetup</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.meetup.com/Calgary-net-User-Group"
+            target="_blank"
+            >Calgary .net User Group</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.meetup.com/meetup-group-wmHrkGoA/"
+            target="_blank"
+            >Calgary AI/ML Meetup</a
+          >
+        </li>
+        <li>
+          <a href="https://www.meetup.com/pxandpints/" target="_blank"
+            >Pixels &amp; Pints</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.meetup.com/IDIOT-Meetup-Infrastructure-Dev-Integrations-Ops-Teams/"
+            target="_blank"
+            >IDIOT Meetup (Infrastructure, Dev, Integrations, Ops, Teams)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.canadalearningcode.ca/chapters/calgary/"
+            target="_blank"
+            >Calgary Chapter - Canada Learning Code</a
+          >
+        </li>
+      </ul>
 
-    <h2>Community Partners</h2>
-    <ul>
-      <li><a href="https://communityinviter.com/apps/yycdesign/yyc-design-and-development" target="_blank">YYC Design &amp; Dev Slack (main coordination location)</a></li>
-      <li><a href="https://www.meetup.com/YYC-Rb/" target="_blank">YYC Ruby Meetup</a></li>
-      <li><a href="https://www.meetup.com/py-yyc/" target="_blank">PyYYC Meetup</a></li>
-      <li><a href="https://www.meetup.com/Calgary-net-User-Group" target="_blank">Calgary .net User Group</a></li>
-      <li><a href="https://www.meetup.com/meetup-group-wmHrkGoA/" target="_blank">Calgary AI/ML Meetup</a></li>
-      <li><a href="https://www.meetup.com/pxandpints/" target="_blank">Pixels &amp; Pints</a></li>
-      <li><a href="https://www.meetup.com/IDIOT-Meetup-Infrastructure-Dev-Integrations-Ops-Teams/" target="_blank">IDIOT Meetup (Infrastructure, Dev, Integrations, Ops, Teams)</a></li>
-      <li><a href="https://www.canadalearningcode.ca/chapters/calgary/" target="_blank">Calgary Chapter - Canada Learning Code</a></li>
-    </ul>
+      <p>
+        Join the grassroots effort to get involved at the YYC Design &amp; Dev
+        Slack team in the
+        <a
+          href="https://communityinviter.com/apps/yycdesign/yyc-design-and-development"
+          target="_blank"
+          >#polyglot-calgary channel</a
+        >
+      </p>
+    </pg-section>
 
-    <p>
-      Join the grassroots effort to get involved at the YYC Design &amp; Dev Slack team in the <a href="https://communityinviter.com/apps/yycdesign/yyc-design-and-development" target="_blank">#polyglot-calgary channel</a>
-    </p>
-  </pg-section>
+    <pg-section id="support">
+      <h1>Support Polyglot</h1>
+      <h2>Sponsors</h2>
+      <p>
+        Polyglot YYC is made possible by our generous sponsors. If you are
+        interested in sponsorship opportunities please contact us at on the
+        Slack channel (primary point of contact is Tys von Gaza).
+      </p>
+    </pg-section>
 
-  <pg-section id="support">
-    <h1>Support Polyglot</h1>
-    <h2>Sponsors</h2>
-    <p>Polyglot YYC is made possible by our generous sponsors. If you are interested in sponsorship opportunities please contact us at on the Slack channel (primary point of contact is Tys von Gaza).</p>
-  </pg-section>
-
-  <pg-section class="sponsors">
-    <!-- If there are no sponsors in any of these section please ensure they are compleately empty. -->
-    <div class="gigabyte">
-      <a href="https://www.clio.com" target="_blank" style="background-image: url(/images/sponsors/clio.png)"></a>
-    </div>
-    <div class="megabyte">
-      <a href="https://paradem.com/" target="_blank" style="background-image: url(/images/sponsors/Paradem-OnWhite.jpg)"></a>
-      <a href="https://www.replicon.com/" target="_blank" style="background-image: url(/images/sponsors/Replicon_logo.png)"></a>
-      <a href="https://solium.com/" target="_blank" style="background-image: url(/images/sponsors/Solium_logo.png)"></a>
-      <a href="https://www.evanshunt.com/" target="_blank" style="background-image: url(/images/sponsors/EvansHunt_logo.png)"></a>
-    </div>
-    <div class="kilobyte">
-      <a href="https://www.neofinancial.com/" target="_blank" style="background-image: url(/images/sponsors/NeoFinancial_logo.png)"></a>
-      <a href="https://www.absorblms.com/" target="_blank" style="background-image: url(/images/sponsors/Absorb_logo.png)"></a>
-    </div>
-    <div class="byte"></div>
-  </pg-section>
-
-  <pg-section class="talks-section">
-    <h1>Talks</h1>
-    <p>
-      Open-space unconferences are spontaneously scheduled and 100% attendee-driven. Sessions will be proposed, selected, and organized at the opening of the conference. We also encourage attendees to suggest and discuss ideas in advance.
-    </p>
-
-    <p>
-      Talks can be on any topic that is even vaguely related to technology. It can be on a hard technical topic or on a soft topic like "Having Empathy". They should be between 30 and 45 minutes long. We'll have projectors and a bunch of adaptors, just bring a laptop if you want to use them. Sessions aren't limited to talks&mdash;here are some <a href="http://www.environmentalevaluators.net/ideas-for-designing-and-leading-sessions" target="_blank">unconference session ideas</a>. The organizers have the right to decline any topics that are not relevant or that are potentially inappropriate.
-    </p>
-
-    <p>
-      Some of the talks we've seen mentioned are:
-    </p>
-    <div class="topic-list">
-      <div>
-        <ul>
-          <li>
-            Version control with git
-          </li>
-          <li>
-            SOLID principles
-          </li>
-          <li>
-            Tor
-          </li>
-          <li>
-            Event based programming
-          </li>
-          <li>
-            boost::asio
-          </li>
-          <li>
-            py.test
-          </li>
-          <li>
-            Design for Developers
-          </li>
-        </ul>
+    <pg-section class="sponsors">
+      <!-- If there are no sponsors in any of these section please ensure they are compleately empty. -->
+      <div class="gigabyte">
+        <a
+          href="https://www.clio.com"
+          target="_blank"
+          style="background-image: url(/images/sponsors/clio.png)"
+        ></a>
       </div>
-      <div>
-        <ul>
-          <li>
-            Kubernetes
-          </li>
-          <li>
-            Deploying websites to Azure
-          </li>
-          <li>
-            Getting started with messaging
-          </li>
-          <li>
-            The new, open Microsoft
-          </li>
-          <li>
-            Continuous deployment: a primer
-          </li>
-          <li>
-            Intro to TypeScript
-          </li>
-
-        </ul>
+      <div class="megabyte">
+        <a
+          href="https://paradem.com/"
+          target="_blank"
+          style="background-image: url(/images/sponsors/Paradem-OnWhite.jpg)"
+        ></a>
+        <a
+          href="https://www.replicon.com/"
+          target="_blank"
+          style="background-image: url(/images/sponsors/Replicon_logo.png)"
+        ></a>
+        <a
+          href="https://solium.com/"
+          target="_blank"
+          style="background-image: url(/images/sponsors/Solium_logo.png)"
+        ></a>
+        <a
+          href="https://www.evanshunt.com/"
+          target="_blank"
+          style="background-image: url(/images/sponsors/EvansHunt_logo.png)"
+        ></a>
       </div>
-    </div>
-  </pg-section>
-  <pg-section class="schedule-section">
-    <h1>Track Sponsorship:</h1>
-    <p>Room 201: <a href="https://clio.com" target="_blank">Clio</a></p>
-    <p>Room 202: <a href="https://paradem.com/" target="_blank">Paradem</a></p>
-    <p>Room 203: <a href="https://www.replicon.com/" target="_blank">Replicon</a></p>
-    <p>Room 204: <a href="https://solium.com/" target="_blank">Solium</a>
-    <p>Room 207: <a href="https://www.absorblms.com/" target="_blank">Absorb</a>
+      <div class="kilobyte">
+        <a
+          href="https://www.neofinancial.com/"
+          target="_blank"
+          style="background-image: url(/images/sponsors/NeoFinancial_logo.png)"
+        ></a>
+        <a
+          href="https://www.absorblms.com/"
+          target="_blank"
+          style="background-image: url(/images/sponsors/Absorb_logo.png)"
+        ></a>
+      </div>
+      <div class="byte"></div>
+    </pg-section>
 
-    <h1>Schedule</h1>
-    <table>
-      <tbody>
-      <tr>
-        <td>
-          8:30 - 9:00
-        </td>
-        <td>
-          Doors open and sign in
-        </td>
-      </tr>
-      <tr>
-        <td>
-          9:00 - 9:30
-        </td>
-        <td>
-          Session ideation/generation &amp; Breakfast (Sponsored by <a href="https://www.evanshunt.com/" target="_blank">Evans Hunt</a>)
-        </td>
-      </tr>
-      <tr>
-        <td>
-          9:30 - 9:45
-        </td>
-        <td>
-          Session voting &amp; Breakfast
-        </td>
-      </tr>
-      <tr>
-        <td>
-          9:45 - 10:00
-        </td>
-        <td>
-          Sponsor Introductions
-        </td>
-      </tr>
-      <tr>
-        <td>
-          10:00 - 10:45
-        </td>
-        <td>
-          Session 1
-        </td>
-      </tr>
-      <tr>
-        <td>
-          10:50 - 11:35
-        </td>
-        <td>
-          Session 2
-        </td>
-      </tr>
-      <tr>
-        <td>
-          11:40 - 12:25
-        </td>
-        <td>
-          Session 3
-        </td>
-      </tr>
-      <tr>
-        <td>
-          12:25 - 1:15
-        </td>
-        <td>
-          Lunch (Sponsored by <a href="https://www.neofinancial.com/" target="_blank">Neo Financial</a>)
-        </td>
-      </tr>
-      <tr>
-        <td>
-          1:15 - 2:00
-        </td>
-        <td>
-          Session 4
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2:05 - 2:50
-        </td>
-        <td>
-          Session 5
-        </td>
-      </tr>
-      <tr>
-        <td>
-          2:50 - 3:10
-        </td>
-        <td>
-          Afternoon Refreshments (Sponsored by <a href="https://www.evanshunt.com/" target="_blank">Evans Hunt</a>)
-        </td>
-      </tr>
-      <tr>
-        <td>
-          3:10 - 3:55
-        </td>
-        <td>
-          Session 6
-        </td>
-      </tr>
-      <tr>
-        <td>
-          4:00 - 4:20
-        </td>
-        <td>
-          Wrap up and closing remarks
-        </td>
-      </tr>
-    </tbody>
-    </table>
-  </pg-section>
+    <pg-section class="talks-section">
+      <h1>Talks</h1>
+      <p>
+        Open-space unconferences are spontaneously scheduled and 100%
+        attendee-driven. Sessions will be proposed, selected, and organized at
+        the opening of the conference. We also encourage attendees to suggest
+        and discuss ideas in advance.
+      </p>
 
-  <pg-section>
-    <h1>Post event networking</h1>
-    <p>There will be drinks at <a href="http://millstreetbrewery.com/calgary-brew-pub/">Millstreet Brewery</a> immediately following the unconference. <a href="#support">Become a Sponsor!</a></p>
-  </pg-section>
+      <p>
+        Talks can be on any topic that is even vaguely related to technology. It
+        can be on a hard technical topic or on a soft topic like "Having
+        Empathy". They should be between 30 and 45 minutes long. We'll have
+        projectors and a bunch of adaptors, just bring a laptop if you want to
+        use them. Sessions aren't limited to talks&mdash;here are some
+        <a
+          href="http://www.environmentalevaluators.net/ideas-for-designing-and-leading-sessions"
+          target="_blank"
+          >unconference session ideas</a
+        >. The organizers have the right to decline any topics that are not
+        relevant or that are potentially inappropriate.
+      </p>
 
-  <pg-section class="location-section">
-    <h1>Venue</h1>
-    <h4>Kahanoff Centre & Conference Space</h4>
-    <h5><a href="https://goo.gl/maps/X3RKt4EUftr" target="_blank">105 12 Ave SE #200, Calgary, AB T2G 1A1</a></h5>
-  </pg-section>
+      <p>Some of the talks we've seen mentioned are:</p>
+      <div class="topic-list">
+        <div>
+          <ul>
+            <li>Version control with git</li>
+            <li>SOLID principles</li>
+            <li>Tor</li>
+            <li>Event based programming</li>
+            <li>boost::asio</li>
+            <li>py.test</li>
+            <li>Design for Developers</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li>Kubernetes</li>
+            <li>Deploying websites to Azure</li>
+            <li>Getting started with messaging</li>
+            <li>The new, open Microsoft</li>
+            <li>Continuous deployment: a primer</li>
+            <li>Intro to TypeScript</li>
+          </ul>
+        </div>
+      </div>
+    </pg-section>
+    <pg-section class="schedule-section">
+      <h1>Schedule</h1>
 
-  <div id="map" style="display: block; position: relative; height: 400px;"></div>
+      <h3>Coming Soon!</h3>
+    </pg-section>
 
-  <pg-section>
-    <h2>Volunteers</h2>
-    <p>Polyglot YYC couldn't happen without wonderful volunteers. If you're interested in helping out and or volunteering please get in touch with us at on the Slack channel.</p>
-  </pg-section>
+    <pg-section class="location-section">
+      <h1>Venue</h1>
+      <h4>Kahanoff Centre & Conference Space</h4>
+      <h5>
+        <a href="https://goo.gl/maps/X3RKt4EUftr" target="_blank"
+          >105 12 Ave SE #200, Calgary, AB T2G 1A1</a
+        >
+      </h5>
+    </pg-section>
 
-  <pg-section>
-    <h1>Code of Conduct</h1>
-    <p>All attendees, speakers, sponsors and volunteers at Polyglot YYC are required to agree with the following code of conduct. Organizers will enforce this code throughout the event. We are expecting cooperation from all participants to help ensuring a safe environment for everybody.</p>
-    <p><i>tl;dr: Be excellent with each other.</i> &mdash; <a href="http://confcodeofconduct.com" target="_blank">Full Text</a></p>
-  </pg-section>
+    <div
+      id="map"
+      style="display: block; position: relative; height: 400px;"
+    ></div>
 
-  <footer>
-    &copy; Copyright 2019 Polyglot Calgary
-  </footer>
+    <pg-section>
+      <h2>Volunteers</h2>
+      <p>
+        Polyglot YYC couldn't happen without wonderful volunteers. If you're
+        interested in helping out and or volunteering please get in touch with
+        us at on the Slack channel.
+      </p>
+    </pg-section>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-  <script src="//api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
-  <script src="/assets/js/vendor.js"></script>
-  <script src="/assets/js/main.js"></script>
+    <pg-section>
+      <h1>Code of Conduct</h1>
+      <p>
+        All attendees, speakers, sponsors and volunteers at Polyglot YYC are
+        required to agree with the following code of conduct. Organizers will
+        enforce this code throughout the event. We are expecting cooperation
+        from all participants to help ensuring a safe environment for everybody.
+      </p>
+      <p>
+        <i>tl;dr: Be excellent with each other.</i> &mdash;
+        <a href="http://confcodeofconduct.com" target="_blank">Full Text</a>
+      </p>
+    </pg-section>
 
-  <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoidGltdXJ1c2tpIiwiYSI6ImNqZjY2MnFjeTAwZWs0MG1xd3lmNmZhOW4ifQ.egns5b4wOz3ZF90gjJ--3A';
-    var map = new mapboxgl.Map({
-      container: 'map',
-      scrollZoom: false,
-      style: 'mapbox://styles/mapbox/dark-v9',
-      center: [-114.063037,51.041190],
-      zoom: 15
-    });
-    var marker = new mapboxgl.Marker()
-      .setLngLat([-114.063037,51.041190])
-      .addTo(map);
-  </script>
+    <footer>&copy; Copyright 2024 Polyglot Calgary</footer>
 
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.js"></script>
+    <script src="/assets/js/vendor.js"></script>
+    <script src="/assets/js/main.js"></script>
 
-    ga('create', 'UA-3057196-9', 'auto');
-    ga('send', 'pageview');
-  </script>
-</body>
+    <script>
+      mapboxgl.accessToken = 'pk.eyJ1IjoidGltdXJ1c2tpIiwiYSI6ImNqZjY2MnFjeTAwZWs0MG1xd3lmNmZhOW4ifQ.egns5b4wOz3ZF90gjJ--3A';
+      var map = new mapboxgl.Map({
+        container: 'map',
+        scrollZoom: false,
+        style: 'mapbox://styles/mapbox/dark-v9',
+        center: [-114.063037,51.041190],
+        zoom: 15
+      });
+      var marker = new mapboxgl.Marker()
+        .setLngLat([-114.063037,51.041190])
+        .addTo(map);
+    </script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-3057196-9', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
