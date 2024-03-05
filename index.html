@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" ng-app="Polyglot">
   <head>
     <meta charset="UTF-8" />
@@ -7,7 +7,9 @@
 
     <script src="//use.typekit.net/xbk7uap.js"></script>
     <script>
-      try{Typekit.load();}catch(e){}
+      try {
+        Typekit.load();
+      } catch (e) {}
     </script>
     <link rel="stylesheet" href="/assets/css/main.css" type="text/css" />
     <link
@@ -28,9 +30,12 @@
       }
 
       #mc_embed_signup {
-        background:#fff;
-        clear:left;
-        font:14px Helvetica,Arial,sans-serif;
+        background: #fff;
+        clear: left;
+        font:
+          14px Helvetica,
+          Arial,
+          sans-serif;
         width: 600px;
       }
 
@@ -40,7 +45,7 @@
 
       #mc-embedded-subscribe {
         color: #606060 !important;
-        background-color: #FBDD70 !important;
+        background-color: #fbdd70 !important;
         font-weight: bold !important;
         font-size: 3rem !important;
         width: 100% !important;
@@ -59,8 +64,8 @@
       <div class="mountains"></div>
       <pg-wheat></pg-wheat>
       <h1>Polyglot &nbsp;YYC</h1>
-      <h2>Date: TBD</h2>
-      <h2>Location: Coming soon</h2>
+      <h2>Date: May 4th, 2024</h2>
+      <h2>Location: Workhaus Coworking & Office Space</h2>
       <!-- <pg-tickets></pg-tickets> -->
     </header>
 
@@ -72,10 +77,11 @@
         <a href="https://www.polyglotconf.com/" target="_blank"
           >Polyglot Unconference</a
         >
-        in Vancouver. We hope to gather 100 Calgary software developers who will
-        leave language, platform and possibly even editor wars behind and come
-        together for a spontaneously organized day of amazing talks, round-table
-        discussions, panel sessions, and coding.
+        in Vancouver and a follow-up to Polyglot YYC 2018. We hope to gather 100
+        Calgary software developers who will leave language, platform and
+        possibly even editor wars behind and come together for a spontaneously
+        organized day of amazing talks, round-table discussions, panel sessions,
+        and coding.
       </p>
 
       <p>
@@ -85,15 +91,10 @@
       </p>
 
       <p>
-        Why $20 tickets? From our experience, we see a larger drop off rate for
-        free events. Any proceeds after costs (catering breakfast and lunch,
-        security, etc.) will be donated to the
-        <a
-          href="https://www.canadalearningcode.ca/chapters/calgary/"
-          target="_blank"
-          title="Canada Learning Code - Calgary Chapter"
-          >Calgary chapter of Canada Learning Code</a
-        >.
+        Why $25 tickets? From our experience, we see a larger drop off rate for
+        free events. Any proceeds after costs (venue, catering breakfast and
+        lunch, security, etc.) will be reused to prepare for Polyglot 2025 or
+        donated to a non-profit.
       </p>
     </pg-section>
 
@@ -241,16 +242,16 @@
 
     <pg-section class="location-section">
       <h1>Venue</h1>
-      <h4>Coming Soon</h4>
+      <h4>Workhaus Coworking & Office Space</h4>
     </pg-section>
 
     <div
       id="map"
-      style="display: block; position: relative; height: 400px;"
+      style="display: block; position: relative; height: 400px"
     ></div>
 
     <pg-section>
-      <h2 id="newsletter-subscribe" style="width: 100%;">
+      <h2 id="newsletter-subscribe" style="width: 100%">
         Subscribe to get the latest news for Polyglot YYC 2024!
       </h2>
       <div id="mc_embed_shell">
@@ -307,18 +308,15 @@
                 <div
                   class="response"
                   id="mce-error-response"
-                  style="display: none;"
+                  style="display: none"
                 ></div>
                 <div
                   class="response"
                   id="mce-success-response"
-                  style="display: none;"
+                  style="display: none"
                 ></div>
               </div>
-              <div
-                aria-hidden="true"
-                style="position: absolute; left: -5000px;"
-              >
+              <div aria-hidden="true" style="position: absolute; left: -5000px">
                 /* real people should not fill this in and expect good things -
                 do not remove this or risk form bot signups */
                 <input
@@ -330,17 +328,28 @@
               </div>
               <div class="optionalParent">
                 <div class="clear foot">
-                  <p style="margin: 0px auto;">
+                  <p style="margin: 0px auto">
                     <a
                       href="http://eepurl.com/iDTJB-"
                       title="Mailchimp - email marketing made easy and fun"
                       ><span
-                        style="display: inline-block; background-color: transparent; border-radius: 4px;"
+                        style="
+                          display: inline-block;
+                          background-color: transparent;
+                          border-radius: 4px;
+                        "
                         ><img
                           class="refferal_badge"
                           src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg"
                           alt="Intuit Mailchimp"
-                          style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;" /></span
+                          style="
+                            width: 220px;
+                            height: 40px;
+                            display: flex;
+                            padding: 2px 0px;
+                            justify-content: center;
+                            align-items: center;
+                          " /></span
                     ></a>
                   </p>
                   <input
@@ -394,27 +403,43 @@
     <script src="/assets/js/main.js"></script>
 
     <script>
-      mapboxgl.accessToken = 'pk.eyJ1IjoidGltdXJ1c2tpIiwiYSI6ImNqZjY2MnFjeTAwZWs0MG1xd3lmNmZhOW4ifQ.egns5b4wOz3ZF90gjJ--3A';
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoidGltdXJ1c2tpIiwiYSI6ImNqZjY2MnFjeTAwZWs0MG1xd3lmNmZhOW4ifQ.egns5b4wOz3ZF90gjJ--3A";
       var map = new mapboxgl.Map({
-        container: 'map',
+        container: "map",
         scrollZoom: false,
-        style: 'mapbox://styles/mapbox/dark-v9',
-        center: [-114.063611,51.044444],
-        zoom: 15
+        style: "mapbox://styles/mapbox/dark-v9",
+        center: [-114.0737375, 51.0475051],
+        zoom: 15,
       });
       var marker = new mapboxgl.Marker()
-        .setLngLat([-114.063611,51.044444])
+        .setLngLat([-114.0737375, 51.0475051])
         .addTo(map);
     </script>
 
     <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "//www.google-analytics.com/analytics.js",
+        "ga",
+      );
 
-      ga('create', 'UA-3057196-9', 'auto');
-      ga('send', 'pageview');
+      ga("create", "UA-3057196-9", "auto");
+      ga("send", "pageview");
     </script>
 
     <script
@@ -422,7 +447,23 @@
       src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"
     ></script>
     <script type="text/javascript">
-      (function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='ADDRESS';ftypes[3]='address';fnames[4]='PHONE';ftypes[4]='phone';fnames[5]='BIRTHDAY';ftypes[5]='birthday';}(jQuery));var $mcj = jQuery.noConflict(true);
+      (function ($) {
+        window.fnames = new Array();
+        window.ftypes = new Array();
+        fnames[0] = "EMAIL";
+        ftypes[0] = "email";
+        fnames[1] = "FNAME";
+        ftypes[1] = "text";
+        fnames[2] = "LNAME";
+        ftypes[2] = "text";
+        fnames[3] = "ADDRESS";
+        ftypes[3] = "address";
+        fnames[4] = "PHONE";
+        ftypes[4] = "phone";
+        fnames[5] = "BIRTHDAY";
+        ftypes[5] = "birthday";
+      })(jQuery);
+      var $mcj = jQuery.noConflict(true);
     </script>
   </body>
 </html>
