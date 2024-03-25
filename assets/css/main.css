@@ -97,6 +97,15 @@ header h2 {
   font-size: 1.5em;
   font-weight: 300;
 }
+h2.showpass {
+  font-weight: 900;
+  font-size: 1.7em;
+  padding-bottom: 1.2rem;
+}
+h2.showpass a {
+  font-size: 0.8em;
+  text-transform: lowercase;
+}
 
 header .pg-wheat {
   position: absolute;
