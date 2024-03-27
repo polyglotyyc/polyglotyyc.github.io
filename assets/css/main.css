@@ -297,9 +297,11 @@ section .content {
   height: 92px;
   margin: 1rem;
 }
+
 footer {
+  display: block;
   padding-top: 4rem;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   text-align: center;
   border-top: solid 1px #bbb;
   background-color: #fbdd70;
@@ -310,14 +312,17 @@ footer {
   background-position: center center;
   background-blend-mode: multiply;
 }
-footer a.twitter {
-  display: inline-block;
-  height: 32px;
-  width: 32px;
-  color: transparent;
-  background-image: url("/images/twitter.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-background-size: contain;
-  background-size: contain;
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+}
+
+.social-media .instagram {
+  position: relative;
+  top: 3px;
 }
