@@ -187,9 +187,8 @@ section .content {
   margin-left: auto;
   margin-right: auto;
 }
-.location-section h4,
-.location-section h5 {
-  margin-bottom: 1rem;
+.location {
+  text-align: center;
 }
 .map {
   display: block;
